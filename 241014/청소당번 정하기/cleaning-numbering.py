@@ -2,7 +2,8 @@ n = int(input())
 cnt_class = 0
 cnt_corridor = 0
 cnt_wc = 0
-for i in range(n):
+
+for i in range(1,n+1):
     if (i % 12 == 0) and (i//12 > 0):
         cnt_wc += 1
     elif i % 3 == 0 and (i//3 > 0):
