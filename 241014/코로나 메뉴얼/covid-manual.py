@@ -23,3 +23,5 @@ if (a_cold == "Y" and a_temp >= 37):
 else:
     if (b_cold == "Y" and b_temp >= 37) and (c_cold == "Y" and c_temp >= 37):
         print('E')
+    else:
+        print('N')
