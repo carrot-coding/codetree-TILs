@@ -6,11 +6,11 @@ cnt = 0
 sum_val = 0
 
 if a >= b:
-    for i in range(b+1,a):
+    for i in range(b,a):
         if i%5 == 0:
             sum_val += i
 else:
-    for i in range(a+1,b):
+    for i in range(a,b):
         if i%5 == 0:
             sum_val += i  
 print(sum_val)
