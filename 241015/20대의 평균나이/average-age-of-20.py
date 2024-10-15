@@ -8,5 +8,6 @@ while True :
     
     cnt += 1
     sum_val += age
-
-print(f"{sum_val/cnt:.2f}")
+    
+avg = sum_val/cnt
+print(f"{avg:.2f}")
