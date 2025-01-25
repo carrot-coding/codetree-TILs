@@ -1,8 +1,10 @@
-for i in range(6):
-    if i % 2 == 0:
+n = int(input())
+for i in range(n):
+    if i % 2 != 0:
         for j in range(i+1):
-            print("*",end="")
+            print("*",end=" ")
         print()
     else:
-        print("$")
+        print("*", end=' ')
+        print()
 
