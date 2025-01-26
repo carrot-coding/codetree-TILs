@@ -11,7 +11,6 @@ while True:
     arr.append(arr[cnt-1]+arr[cnt-2])
     if arr[cnt]>= 100:
         break
-print(arr)
 
 for elem in arr:
     print(elem,end=' ')
