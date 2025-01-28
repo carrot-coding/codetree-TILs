@@ -17,7 +17,6 @@ for i in range(q):
             if find == elem:
                 print(arr_elem.index(elem)+1)
                 cnt += 1
-            if cnt > 1:
                 break
         if cnt == 0 :
             print(0)
