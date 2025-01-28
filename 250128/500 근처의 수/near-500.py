@@ -1,7 +1,5 @@
 arr = list(map(int, input().split()))
-max_idx = 0
-min_idx = 0
-#print(arr)
+
 max_setting = 0
 min_setting = 1000
 
