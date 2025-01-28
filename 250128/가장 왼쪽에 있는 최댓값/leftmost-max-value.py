@@ -9,7 +9,8 @@ while True:
             max_val = elem
     #print(max_val)
     index_for_max = arr.index(max_val)
-    print(index_for_max + 1, end=' ')
+    if index_for_max != 0:  
+        print(index_for_max + 1, end=' ')
     if index_for_max == 0:
         print(index_for_max + 1, end=' ')
         break
