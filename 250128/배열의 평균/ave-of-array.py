@@ -15,4 +15,4 @@ sum_val = 0
 for i in range(4) :
     for j in range(2) :
         sum_val += arr_2d[j][i]
-print(sum_val/8, end=' ')
+print(f"{sum_val/8:.1f}", end=' ')
