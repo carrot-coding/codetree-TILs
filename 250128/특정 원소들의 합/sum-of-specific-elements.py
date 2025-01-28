@@ -1,5 +1,6 @@
 arr = list(map(int, input().split()))
-arr_2d =[]
+arr_2d = []
+sum_val = 0
 for _ in range(4):
     arr_2d.append(arr)
 for i in range(4) :
