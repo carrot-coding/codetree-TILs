@@ -10,5 +10,4 @@ n_2 = length % 5
 for i in range(n_) :
     print(str_[5*i:5*i+5])
 for i in range(n_2) :
-    print(str_[5*n_+i])
-    
+    print(str_[5*n_+i],end='')
