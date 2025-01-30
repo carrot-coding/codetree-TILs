@@ -6,13 +6,13 @@ c = int(c)
 def sachik(a, o, c) :
     if o == '+':
         print(a, o, c, '=', a+c)
-    if o == '-':
+    elif o == '-':
         print(a, o, c, '=', a-c)
-    if o == '/':
+    elif o == '/':
         print(a, o, c, '=', a/c)
-    if o == '*':
+    elif o == '*':
         print(a, o, c, '=', a*c)            
     else :
-        return False
+        print('False')
     
 sachik(a, o, c)
