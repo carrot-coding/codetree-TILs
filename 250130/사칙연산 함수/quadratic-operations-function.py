@@ -13,6 +13,6 @@ def sachik(a, o, c) :
     if o == '*':
         print(a, o, c, '=', a*c)            
     else :
-        print('False')
+        return False
     
-sachik(a,o,c)
+sachik(a, o, c)
