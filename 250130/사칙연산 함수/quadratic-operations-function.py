@@ -7,7 +7,7 @@ def sachik(a, o, c) :
     if o == '+':
         print(a, o, c, '=', a+c)
     if o == '-':
-        print(a, o, c, '-', a+c)
+        print(a, o, c, '=', a+c)
     if o == '/':
         print(a, o, c, '=', a/c)
     if o == '*':
