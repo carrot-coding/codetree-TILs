@@ -22,6 +22,6 @@ class Student :
 for i in range(n) :
     student = Student(name[i],street_address[i],region[i])
     if student.name == name2[-1]:
-        print(f"name : {student.name}")
-        print(f"addr : {student.street}")
-        print(f"city : {student.region}")
+        print(f"name  {student.name}")
+        print(f"addr  {student.street}")
+        print(f"city  {student.region}")
