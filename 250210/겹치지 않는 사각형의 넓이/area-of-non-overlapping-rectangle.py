@@ -21,8 +21,8 @@ for x1, y1, x2, y2 in rects2:
             checked[x][y] -= 1
 
 cnt = 0
-for x in range(1,MAX_R) :
-    for y in range(1,MAX_R) :
+for x in range(0,MAX_R) :
+    for y in range(0,MAX_R) :
         if checked[x][y] > 0 :
             cnt += 1
 print(cnt)
