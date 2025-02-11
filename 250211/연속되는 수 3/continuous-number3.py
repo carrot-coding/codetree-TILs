@@ -9,4 +9,4 @@ for i in range(N) :
     else :
         cnt += 1
         max_cnt = max(max_cnt, cnt)
-print(max_cnt)
+print(max_cnt+1)
