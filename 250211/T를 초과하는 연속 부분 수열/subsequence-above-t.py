@@ -1,6 +1,7 @@
 n, t = map(int, input().split())
 arr = list(map(int, input().split()))
 cnt, max_cnt = 0, 0
+
 # Write your code here!
 for i in range(n-1):
     if arr[i] > t and arr[i] < arr[i+1]:
