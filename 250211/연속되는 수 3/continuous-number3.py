@@ -5,9 +5,9 @@ cnt = 0
 max_cnt = 0
 
 for i in range(N) :
-    if i != 0 or arr[i-1]*arr[i]>0 :
-        cnt += 1
-        max_cnt = max(max_cnt, cnt)
+    if i != 0 and arr[i-1]*arr[i]>0 :
+        cnt += 1        
     else :
         cnt = 0
-print(max_cnt)
+    max_cnt = max(max_cnt, cnt)
+print(max_cnt+1)
