@@ -27,7 +27,7 @@ else :
                 ans = i
         X__.append(i)
     min = N
-    for i in range(X__) :
+    for i in range(len(X__)) :
         if X__[i] < min :
             min = i
     print(K__[min]) 
