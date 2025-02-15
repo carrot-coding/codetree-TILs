@@ -14,17 +14,19 @@ for i in range(m):
     for i in range(int(t)) :
         location_b[time_b+1] = location_b[time_b] + int(v) 
         time_b += 1
-#print(location_a[:20])
-#print(location_b[:20])
+print(location_a[:20])
+print(location_b[:20])
 
 compare = []
 
 for i in range(1, time_a+1) :
     if location_a[i] > location_b[i] :
         compare.append('a')
+    elif location_a[i] > location_b[i] :
+        compare.append(0)
     else :
         compare.append('b')
-#print(compare[:20])
+print(compare[:20])
 change = 0
 for i in range(len(compare)-1):
     if compare[i] != compare[i+1] :
