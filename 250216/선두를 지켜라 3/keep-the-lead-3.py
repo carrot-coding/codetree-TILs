@@ -22,10 +22,11 @@ for _ in range(M):
     vi, ti = map(int, input().split())
     v2.append(vi)
     t2.append(ti)
+
 time_b = 0
 for i in range(M) :
     for j in range(t2[i]) :
-        location_b[time_b + 1] = location_b[time_b] + v[i]    
+        location_b[time_b + 1] = location_b[time_b] + v2[i]    
         time_b += 1
 # Write your code here!
 #print(location_a[:20])
