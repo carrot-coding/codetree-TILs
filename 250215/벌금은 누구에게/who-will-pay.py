@@ -26,4 +26,8 @@ else :
             if element == student[i] :
                 ans = i
         X__.append(i)
-    print(arr[min(X__)])
+    min = N
+    for i in range(X__) :
+        if X__[i] < min :
+            min = i
+    print(K__[min]) 
