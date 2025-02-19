@@ -14,5 +14,4 @@ for i in range(n) :
         y -= dist[i]
     else :
         x += dist[i]
-print(x)
-print(y) 
+print(x, end=' ')
