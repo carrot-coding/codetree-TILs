@@ -5,7 +5,7 @@ dist = [int(move[1]) for move in moves]
 
 x, y = 0, 0
 for i in range(n) :
-    move = moves[i]
+    move = dir[i]
     if move == 'N' :
         y += dist[i]
     elif move == 'W' :
