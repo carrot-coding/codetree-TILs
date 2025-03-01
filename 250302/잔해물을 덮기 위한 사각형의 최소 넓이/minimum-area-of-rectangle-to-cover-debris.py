@@ -21,6 +21,8 @@ for i in range(2002):
         if arr[i][j] == 1:
             i_arr.append(i)
             j_arr.append(j)
-
-square = (max(i_arr) - min(i_arr) + 1) * (max(j_arr) - min(j_arr) + 1)
-print(square)
+if len(i_arr)==0 or len(j_arr)==0 :
+    print(0)
+else:
+    square = (max(i_arr) - min(i_arr) + 1) * (max(j_arr) - min(j_arr) + 1)
+    print(square)
