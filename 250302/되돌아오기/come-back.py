@@ -17,5 +17,6 @@ for i in range(N):
         if x == 0 and y == 0:   
             min_cnt = cnt
             break
-
+    if min_cnt>-1:
+        break
 print(min_cnt)
