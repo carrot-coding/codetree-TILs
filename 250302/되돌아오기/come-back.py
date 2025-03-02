@@ -7,13 +7,15 @@ dxs = [1,0,-1,0]
 dys = [0,-1,0,1]
 dirs = ['E','S','W','N']
 cnt = 0
-
+min_cnt = -1
 for i in range(N):
     direction = dirs.index(dir[i])
     for j in range(dist[i]):
         cnt += 1
         x = x + dxs[direction]
         y = y + dys[direction]
-        if x == 0 and y == 0 :
-            print(cnt)
+        if x == 0 and y == 0:   
+            min_cnt = cnt
             break
+
+print(min_cnt)
