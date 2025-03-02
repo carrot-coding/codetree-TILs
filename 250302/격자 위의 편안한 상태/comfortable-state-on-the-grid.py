@@ -17,7 +17,7 @@ for i in range(m):
         ny = y + dys[j]
         if in_range(nx,ny) and checked[nx][ny] == 1:
             cnt += 1
-    if cnt > 2 :
+    if cnt == 3 :
         print(1)
     else :
         print(0)
