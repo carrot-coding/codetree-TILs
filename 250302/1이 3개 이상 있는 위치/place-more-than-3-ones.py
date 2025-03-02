@@ -19,3 +19,4 @@ for i in range(n):
             cnt += 1
         if cnt >= 3 :
             total_cnt += 1
+print(total_cnt)
